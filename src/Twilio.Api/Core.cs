@@ -179,7 +179,7 @@ namespace Twilio
         /// <param name="accountSid">The AccountSid to authenticate with</param>
         /// <param name="authToken">The AuthToken to authenticate with</param>
         /// <param name="accountResourceSid"></param>
-        public TwilioRestClient(string accountSid, string authToken, string accountResourceSid) : base(accountSid, authToken, accountResourceSid, "2010-04-01", "https://api.twilio.com/")
+        public TwilioRestClient(string accountSid, string authToken, string accountResourceSid) : base(accountSid, authToken, accountResourceSid, "2010-04-01", "https://api.twilio.com:8443/")
         {
         }
 

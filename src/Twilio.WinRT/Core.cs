@@ -37,7 +37,7 @@ namespace Twilio
 		public TwilioRestClient(string accountSid, string authToken)
 		{
 			ApiVersion = "2010-04-01"; 
-			BaseUrl = "https://api.twilio.com/";
+			BaseUrl = "https://api.twilio.com:8443/";
 			AccountSid = accountSid;
 			AuthToken = authToken;
 
